@@ -1,0 +1,6 @@
+.DS_Store
+build
+docs
+.VSCodeCounter
+plutus.json
+.vscode

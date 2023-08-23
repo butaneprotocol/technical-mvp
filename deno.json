@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "~/": "./src/",
+    "zod": "npm:zod",
+    "hono/zod-validator": "npm:@hono/zod-validator",
+    "lucid": "https://deno.land/x/lucid@0.10.7/mod.ts",
+    "lucid/": "https://deno.land/x/lucid@0.10.7/",
+    "butane": "./plutus.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false,
+    "proseWrap": "never",
+    "include": ["./"],
+    "exclude": ["*.md"]
+  },
+  "tasks": {
+    "build": "aiken build -k && deno run -A https://deno.land/x/lucid@0.10.7/blueprint.ts && deno fmt",
+    "start": "deno run -A ./src/main.ts",
+    "dev": "deno run -A ./src/main.ts --watch",
+    "test": "deno test -A ./tests/"
+  }
+}
