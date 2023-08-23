@@ -60,7 +60,7 @@ app.post(
     );
 
     return c.json({
-      cbor: await txBuilder.toString(),
+      cbor: (await txBuilder.complete()).toString(),
     });
   },
 );
