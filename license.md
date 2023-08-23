@@ -3,13 +3,14 @@ License text copyright (c) 2020 MariaDB Corporation Ab, All Rights Reserved.
 “Business Source License” is a trademark of MariaDB Corporation Ab.
 
 ### Parameters
-| Parameter            | Value                                                  |
-|----------------------|--------------------------------------------------------|
-| Licensor             |	MCOMP PTY LTD                                         |
-| Licensed Work        |	Butane Technical MVP                                  |
-| Additional Use Grant |	None                                                  |
-| Change Date          |	One year from the date the Licensed Work is published |
-| Change License       |	GPL 3.0                                               |
+
+| Parameter            | Value                                                 |
+| -------------------- | ----------------------------------------------------- |
+| Licensor             | MCOMP PTY LTD                                         |
+| Licensed Work        | Butane Technical MVP                                  |
+| Additional Use Grant | None                                                  |
+| Change Date          | One year from the date the Licensed Work is published |
+| Change License       | GPL 3.0                                               |
 
 ### Notice
 
@@ -32,4 +33,3 @@ Any use of the Licensed Work in violation of this License will automatically ter
 This License does not grant you any right in any trademark or logo of Licensor or its affiliates (provided that you may use a trademark or logo of Licensor as expressly required by this License).
 
 TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON AN “AS IS” BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.
-
